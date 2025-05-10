@@ -1,0 +1,33 @@
+import { motion } from 'framer-motion';
+
+function Projects() {
+  return (
+    <motion.section
+      className="p-6"
+      initial="hidden"
+      animate="visible"
+      variants={{
+        hidden: { opacity: 0 },
+        visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
+      }}
+    >
+      <h2 className="text-2xl font-bold mb-4">My Projects</h2>
+      
+      {/* Wrap the list in motion.div */}
+      <motion.ul>
+        {/* Individual list items */}
+        <motion.li variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
+          Project 1: Description
+        </motion.li>
+        <motion.li variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
+          Project 2: Description
+        </motion.li>
+        <motion.li variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
+          Project 3: Description
+        </motion.li>
+      </motion.ul>
+    </motion.section>
+  );
+}
+
+export default Projects;

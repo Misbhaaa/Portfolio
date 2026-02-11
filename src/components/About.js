@@ -24,9 +24,7 @@ function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.4 }}
       >
-        I’m a B.Tech Computer Science graduate passionate about cybersecurity and backend development.
-        With hands-on experience in building secure, cloud-based applications using Python, Java, and OpenStack,
-        I thrive on solving complex problems and collaborating in dynamic teams.
+       I’m a B.Tech Computer Science graduate with a strong interest in software and backend development. I have hands-on experience building secure and database-driven applications using Python, Java, and SQL, along with exposure to cloud-based systems and fundamental cybersecurity concepts. I enjoy solving problems, learning new technologies, and collaborating effectively in team environments..
       </motion.p>
 
       <motion.div

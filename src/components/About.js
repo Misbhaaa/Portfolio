@@ -31,10 +31,24 @@ function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.6 }}
       >
-        <h3 className="text-xl font-semibold text-indigo-600 mb-2">Skills</h3>
-        <p><strong>Technical:</strong> Advanced SQL, C, Java, Python, Microsoft Excel, Microsoft Word</p>
-        <p><strong>Soft Skills:</strong> Team Collaboration, Strategic Planning, Problem Solving, Communication</p>
-      </motion.div>
+       </h3>
+
+  <p>
+    <strong>Programming Languages:</strong> C, Python, Java, SQL
+  </p>
+
+  <p>
+    <strong>Frameworks:</strong> Django
+  </p>
+
+  <p>
+    <strong>Developer Tools & Databases:</strong> VS Code, Git, MySQL
+  </p>
+
+  <p>
+    <strong>Soft Skills:</strong> Problem Solving, Attention to Detail, Team Collaboration, Communication
+  </p>
+</motion.div>
     </motion.section>
   );
 }

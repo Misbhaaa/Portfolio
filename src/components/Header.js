@@ -23,7 +23,7 @@ function Header() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        B.Tech Computer Science | Cybersecurity & Backend Development
+        B.Tech Computer Science | Software Developer
       </motion.p>
     </motion.header>
   );
